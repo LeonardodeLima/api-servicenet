@@ -20,6 +20,7 @@ Dotenv: https://github.com/motdotla/dotenv
 
 Nodemon: https://github.com/remy/nodemon
 
+Jwt: https://www.npmjs.com/package/express-jwt
 
 # required
    

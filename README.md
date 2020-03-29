@@ -44,3 +44,10 @@ Mongodb: https://www.npmjs.com/package/mongodb
 
 ### API Requests
 requests: please access the API documentation [here](https://documenter.getpostman.com/view/3883466/SzYW3g33?version=latest) 
+
+
+### Testes API Requests
+```
+ npm run test
+ 
+```

@@ -17,9 +17,7 @@ function jwt() {
 }
 
 async function isRevoked(req, payload, done) {
-    // console.log("isRevoked",payload);
     const user = await userController.getById(payload.sub);
-    console.log("user",user);
     if (!user) {
         return done(null, true);
     }

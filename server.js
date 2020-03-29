@@ -20,7 +20,7 @@ const clientRoute = require('./src/routers/client.route');
     }, err => { 
     console.log("Can't connect to the database"+ err)}
   );
-
+  mongoose.set('useFindAndModify', false);
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -45,3 +45,5 @@ app.listen(PORT, function(){
   }).on('error', function(err) { 
     console.log('Server is stopped, error:', err);
 });
+
+module.exports = app

@@ -25,8 +25,8 @@ Nodemon: https://github.com/remy/nodemon
    
     required Node.jsˆ8.x and MongoDB ˆ4.x
    
-    [Node]( https://nodejs.org/en/) 
-    [Mongodb]( https://www.npmjs.com/package/mongodb) 
+    [Node.js](https://nodejs.org/en/) 
+    [Mongodb](https://www.npmjs.com/package/mongodb) 
     
 
 ### Steps of Run and Build
